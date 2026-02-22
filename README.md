@@ -88,13 +88,7 @@ Intelligent chatbot answering questions about sizing, shipping, returns, wholesa
 
 ---
 
-## 📬 Contact
 
-- **Email:** Onemoclu6@gmail.com
-- **Phone:** +90 552 778 58 51
-- **Location:** Istanbul, Turkey
-
----
 
 ## 📝 License
 

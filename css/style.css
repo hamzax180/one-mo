@@ -1408,6 +1408,31 @@ footer ul li a:hover {
         opacity: 1;
         transform: translateY(0);
     }
+
+    /* Newsletter Mobile Fix */
+    .newsletter-form {
+        flex-direction: column;
+        background: transparent;
+        border: none;
+        overflow: visible;
+        border-radius: 0;
+    }
+
+    .newsletter-form input {
+        background: rgba(0, 0, 0, 0.05);
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        margin-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        padding: 18px 24px;
+    }
+
+    .newsletter-form button {
+        width: 100%;
+        margin: 0;
+        padding: 18px 30px;
+    }
 }
 
 @media (max-width: 480px) {

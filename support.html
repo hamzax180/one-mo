@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support | ONEMO Istanbul brand</title>
+    <title>Support | ONEMO Istanbul Manufacturing</title>
     <meta name="description"
         content="ONEMO Support – Get instant help from our AI assistant or browse common topics about orders, shipping, returns and more.">
     <link rel="stylesheet" href="css/style.css">
@@ -419,16 +419,16 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-logo">
+            <a href="/" class="nav-logo">
                 <span class="logo-main">ONEMO</span>
-                <span class="logo-sub">Istanbul brand</span>
+                <span class="logo-sub">Istanbul Manufacturing</span>
             </a>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="support.html" class="active">Support</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="gallery">Gallery</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="support" class="active">Support</a></li>
             </ul>
             <button class="hamburger" id="hamburger" aria-label="Menu">
                 <span></span><span></span><span></span>
@@ -438,11 +438,11 @@
 
     <!-- Mobile Menu -->
     <div class="mobile-menu" id="mobileMenu">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact</a>
-        <a href="support.html">Support</a>
+        <a href="/">Home</a>
+        <a href="about">About</a>
+        <a href="gallery">Gallery</a>
+        <a href="contact">Contact</a>
+        <a href="support">Support</a>
     </div>
 
     <!-- PAGE HERO -->
@@ -605,35 +605,31 @@
             <div class="footer-top">
                 <div class="footer-brand">
                     <div class="logo-main">ONEMO</div>
-                    <div class="logo-sub">Istanbul brand</div>
+                    <div class="logo-sub">Istanbul Manufacturing</div>
                     <p>Born and raised in Istanbul, ONEMO represents the raw energy of urban Türkiye.</p>
                     <div class="footer-socials">
-                        <a href="https://instagram.com" class="social-link" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                        <a href="https://tiktok.com" class="social-link" target="_blank"><i
-                                class="fab fa-tiktok"></i></a>
-                        <a href="https://twitter.com" class="social-link" target="_blank"><i
-                                class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/onemotextile?igsh=MW5yazVsczliZG1wcQ%3D%3D&utm_source=qr"
+                            class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer-col">
                     <h4>Navigate</h4>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="support.html">Support</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="gallery">Gallery</a></li>
+                        <li><a href="contact">Contact</a></li>
+                        <li><a href="support">Support</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="contact.html">Techpack Making &amp; Designing</a></li>
-                        <li><a href="contact.html">Sampling &amp; Manufacturing</a></li>
-                        <li><a href="contact.html">Creative direction &amp; premium photoshoot</a></li>
-                        <li><a href="contact.html">Brand &amp; Web Development</a></li>
-                        <li><a href="contact.html">Global Shipping</a></li>
+                        <li><a href="contact">Techpack Making &amp; Web Designing</a></li>
+                        <li><a href="contact">Sampling &amp; Manufacturing</a></li>
+                        <li><a href="contact">Creative direction &amp; premium photoshoot</a></li>
+                        <li><a href="contact">Brand &amp; Web Development</a></li>
+                        <li><a href="contact">Global Shipping</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -673,12 +669,12 @@
         // ============================================================
 
         const API_KEY = 'AIzaSyC4g3z3ByFzv-CizK8a7eNvuHO0TFFFNOo';
-        const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
+        const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
         async function fetchGeminiResponse(userMsg) {
             const prompt = `You are the AI assistant for ONEMO, a premium brand based in Istanbul, Türkiye. 
-You offer full-service clothing manufacturing, techpack making, photoshoots, and global shipping. 
-Our contact email is Onemoclu6@gmail.com and our location is Istanbul. 
+You offer full-service clothing manufacturing, techpack making, web designing, photoshoots, and global shipping. 
+Our contact email is Onemoclu6@gmail.com and our location is Istanbul. whe can buıld your brand from scratch
 Keep your answers brief, friendly, helpful, and use HTML tags like <strong> or <br> for formatting and line breaks. 
 Customer asks: "${userMsg}"`;
 

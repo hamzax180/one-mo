@@ -1,6 +1,6 @@
 # ONEMO 🇹🇷
 
-**Premium Streetwear & Manufacturing — Born in Istanbul**
+**Premium brand & Manufacturing — Born in Istanbul**
 
 [![Live Site](https://img.shields.io/badge/Live-one--mo.vercel.app-gold?style=for-the-badge)](https://one-mo.vercel.app)
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://one-mo.vercel.app)
@@ -11,7 +11,7 @@
 
 ## 🔥 About
 
-ONEMO is a premium streetwear brand and full-service garment manufacturing company rooted in Istanbul, Türkiye. This website showcases the brand's identity, gallery, manufacturing capabilities, and provides customer support through an AI-powered chatbot.
+ONEMO is a premium brand brand and full-service garment manufacturing company rooted in Istanbul, Türkiye. This website showcases the brand's identity, gallery, manufacturing capabilities, and provides customer support through an AI-powered chatbot.
 
 **🌐 Live:** [one-mo.vercel.app](https://one-mo.vercel.app)
 
@@ -97,6 +97,6 @@ Intelligent chatbot answering questions about sizing, shipping, returns, wholesa
 ---
 
 <p align="center">
-  <strong>ONEMO</strong> — Istanbul Streetwear & Manufacturing<br>
+  <strong>ONEMO</strong> — Istanbul brand & Manufacturing<br>
   <em>Two continents. One city. Infinite inspiration.</em>
 </p>

@@ -1,7 +1,7 @@
 /* ═══════════════════════════════════════════════════════════
-   ONEMO — ISTANBUL STREETWEAR
+   ONEMO — ISTANBUL brand
    Design System: Dark luxury with gold accents
-   Streetwear brochure aesthetic
+   brand brochure aesthetic
    ═══════════════════════════════════════════════════════════ */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
@@ -129,7 +129,7 @@ a {
     z-index: 1000;
     padding: 24px 40px;
     transition: all var(--transition);
-    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.8) 0%, rgba(10, 10, 10, 0.4) 50%, transparent 100%);
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.7) 0%, rgba(10, 10, 10, 0.3) 50%, transparent 100%);
 }
 
 .navbar.scrolled {
@@ -304,7 +304,7 @@ a {
 }
 
 /* ═══════════════════════════════════════════════════════════
-   HERO — Full Bleed Streetwear
+   HERO — Full Bleed brand
    ═══════════════════════════════════════════════════════════ */
 .hero {
     position: relative;
@@ -1341,9 +1341,11 @@ footer ul li a:hover {
 
     .navbar {
         padding: 16px 20px;
+        background: linear-gradient(to bottom, rgba(10, 10, 10, 0.7) 0%, rgba(10, 10, 10, 0.3) 50%, transparent 100%);
     }
 
     .navbar.scrolled {
+        background: rgba(10, 10, 10, 0.95);
         padding: 12px 20px;
     }
 

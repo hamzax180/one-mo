@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery | ONEMO Istanbul Streetwear</title>
+    <title>Gallery | ONEMO Istanbul brand</title>
     <meta name="description"
         content="Explore the ONEMO gallery – visual stories from Istanbul's streets, our collections, and the culture we represent.">
     <link rel="stylesheet" href="css/style.css">
@@ -71,25 +71,26 @@
         .gallery-full-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 4px;
+            gap: 8px;
         }
 
         .gallery-full-item {
             position: relative;
             overflow: hidden;
-            aspect-ratio: 1;
+            aspect-ratio: 4/5;
             cursor: pointer;
         }
 
         .gallery-full-item.wide {
             grid-column: span 2;
-            aspect-ratio: 2/1;
+            aspect-ratio: 3/2;
         }
 
         .gallery-full-item img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            object-position: center;
             transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
@@ -173,11 +174,11 @@
     <div class="cursor-follower"></div>
 
     <!-- Navigation -->
-    <nav class="navbar scrolled">
+    <nav class="navbar">
         <div class="nav-container">
             <a href="index.html" class="nav-logo">
                 <span class="logo-main">ONEMO</span>
-                <span class="logo-sub">Istanbul Streetwear</span>
+                <span class="logo-sub">Istanbul brand</span>
             </a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -284,6 +285,55 @@
         </div>
     </section>
 
+    <!-- PAGE TITLE BAR -->
+    <section style="padding: 80px 40px 40px; background: var(--black);">
+        <div class="section-container">
+            <div class="section-header reveal" style="margin-bottom: 0;">
+                <p class="section-eyebrow">Creative Direction</p>
+                <h2 class="section-title">Photoshoot <span class="outline-text">Directed</span></h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHOTOSHOOT GALLERY GRID -->
+    <section style="padding: 0 0 0 0; background: var(--black);">
+        <div class="gallery-full-grid">
+
+            <div class="gallery-full-item wide reveal">
+                <img src="GALLERY/PIC5.jpeg" alt="ONEMO Photoshoot 1">
+                <div class="overlay">
+                    <div class="overlay-icon"><i class="fas fa-expand-alt"></i></div>
+                    <span class="overlay-text">Creative Direction</span>
+                </div>
+            </div>
+
+            <div class="gallery-full-item reveal">
+                <img src="GALLERY/PIC6.jpeg" alt="ONEMO Photoshoot 2">
+                <div class="overlay">
+                    <div class="overlay-icon"><i class="fas fa-expand-alt"></i></div>
+                    <span class="overlay-text">Premium Lookbook</span>
+                </div>
+            </div>
+
+            <div class="gallery-full-item reveal">
+                <img src="GALLERY/PIC7.jpeg" alt="ONEMO Photoshoot 3">
+                <div class="overlay">
+                    <div class="overlay-icon"><i class="fas fa-expand-alt"></i></div>
+                    <span class="overlay-text">Studio Session</span>
+                </div>
+            </div>
+
+            <div class="gallery-full-item wide reveal">
+                <img src="GALLERY/PIC8.jpeg" alt="ONEMO Photoshoot 4">
+                <div class="overlay">
+                    <div class="overlay-icon"><i class="fas fa-expand-alt"></i></div>
+                    <span class="overlay-text">Model Direction</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <!-- Lightbox -->
     <div class="lightbox" id="lightbox">
         <img class="lightbox-img" src="" alt="Gallery Image">
@@ -319,7 +369,7 @@
             <div class="footer-top">
                 <div class="footer-brand">
                     <div class="logo-main">ONEMO</div>
-                    <div class="logo-sub">Istanbul Streetwear</div>
+                    <div class="logo-sub">Istanbul brand</div>
                     <p>Born and raised in Istanbul, ONEMO represents the raw energy of urban Türkiye.</p>
                     <div class="footer-socials">
                         <a href="https://instagram.com" class="social-link" target="_blank"><i

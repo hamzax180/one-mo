@@ -129,6 +129,7 @@ a {
     z-index: 1000;
     padding: 24px 40px;
     transition: all var(--transition);
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.8) 0%, rgba(10, 10, 10, 0.4) 50%, transparent 100%);
 }
 
 .navbar.scrolled {
@@ -332,10 +333,10 @@ a {
     position: absolute;
     inset: 0;
     background: linear-gradient(180deg,
-            rgba(10, 10, 10, 0.4) 0%,
-            rgba(10, 10, 10, 0.2) 40%,
-            rgba(10, 10, 10, 0.5) 70%,
-            rgba(10, 10, 10, 0.9) 100%);
+            rgba(10, 10, 10, 0.5) 0%,
+            rgba(10, 10, 10, 0.4) 40%,
+            rgba(10, 10, 10, 0.6) 70%,
+            rgba(10, 10, 10, 0.95) 100%);
     z-index: 1;
 }
 
@@ -348,12 +349,13 @@ a {
 
 .hero-eyebrow {
     font-family: var(--font-ui);
-    font-size: 0.72rem;
+    font-size: 0.75rem;
     letter-spacing: 6px;
     text-transform: uppercase;
     color: var(--gold);
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 800;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 8px 16px rgba(0, 0, 0, 0.9);
 }
 
 .hero-title {
@@ -363,6 +365,7 @@ a {
     line-height: 0.9;
     letter-spacing: -2px;
     margin-bottom: 24px;
+    text-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
 }
 
 .hero-title-white {
@@ -376,12 +379,13 @@ a {
 
 .hero-sub {
     font-family: var(--font-ui);
-    font-size: 0.78rem;
+    font-size: 0.8rem;
     letter-spacing: 6px;
     text-transform: uppercase;
-    color: var(--text-secondary);
+    color: var(--text-primary);
     margin-bottom: 40px;
-    font-weight: 400;
+    font-weight: 800;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 8px 16px rgba(0, 0, 0, 0.9);
 }
 
 .hero-buttons {
@@ -865,7 +869,7 @@ a {
 /* Values / Service Cards */
 .values-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 2px;
 }
 

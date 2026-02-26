@@ -97,6 +97,6 @@ Intelligent chatbot answering questions about sizing, shipping, returns, wholesa
 ---
 
 <p align="center">
-  <strong>ONEMO</strong> — Istanbul Manufacturing & Manufacturing<br>
+  <strong>ONEMO</strong> — Manufacturing Company & Manufacturing<br>
   <em>Two continents. One city. Infinite inspiration.</em>
 </p>

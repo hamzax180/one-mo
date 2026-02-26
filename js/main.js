@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   ONEMO — ISTANBUL MANUFACTURING
+   ONEMO — Manufacturing Company
    Global Scripts
    ═══════════════════════════════════════════════════════════ */
 

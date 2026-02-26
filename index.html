@@ -295,33 +295,6 @@
     </footer>
 
     <script src="js/main.js"></script>
-    <script>
-        // Custom newsletter form validation
-        const nForm = document.getElementById('newsletterForm');
-        const nEmail = document.getElementById('newsletterEmail');
-        const nAlert = document.getElementById('newsletterAlert');
-
-        function showAlert(msg, type) {
-            nAlert.textContent = msg;
-            nAlert.className = 'form-alert ' + type + ' show';
-            setTimeout(() => { nAlert.className = 'form-alert'; }, 4000);
-        }
-
-        nForm.addEventListener('submit', function (e) {
-            e.preventDefault();
-            const val = nEmail.value.trim();
-            if (!val) {
-                showAlert('Please enter your email address.', 'error');
-                return;
-            }
-            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val)) {
-                showAlert('Please enter a valid email address.', 'error');
-                return;
-            }
-            showAlert('Welcome to the movement! 🙌', 'success');
-            nEmail.value = '';
-        });
-    </script>
 </body>
 
 </html>

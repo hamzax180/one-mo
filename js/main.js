@@ -94,11 +94,40 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', revealOnScroll);
     revealOnScroll(); // Initial check
 
+    // --- Newsletter Form (Global) ---
+    const newsletterForms = document.querySelectorAll('.newsletter-form');
+    newsletterForms.forEach(form => {
+        form.addEventListener('submit', (e) => {
+            // Note: If you want newsletter to actually send an email,
+            // we should point it to FormSubmit.co like the contact form.
+            // For now, we simulate success if the page has the alert div.
+            const emailInput = form.querySelector('input[type="email"]');
+            const alertDiv = form.parentElement.querySelector('.form-alert');
+
+            if (alertDiv) {
+                e.preventDefault();
+                const val = emailInput.value.trim();
+                if (!val) {
+                    alertDiv.textContent = 'Please enter your email.';
+                    alertDiv.className = 'form-alert error show';
+                } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val)) {
+                    alertDiv.textContent = 'Please enter a valid email.';
+                    alertDiv.className = 'form-alert error show';
+                } else {
+                    alertDiv.textContent = 'Welcome to the movement! 🙌';
+                    alertDiv.className = 'form-alert success show';
+                    emailInput.value = '';
+                }
+                setTimeout(() => { alertDiv.className = 'form-alert'; }, 4000);
+            }
+        });
+    });
+
     // --- Contact Form ---
-    const contactForm = document.querySelector('.contact-form');
+    const contactForm = document.getElementById('contactForm');
     if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            console.log('Form submitted');
+        contactForm.addEventListener('submit', () => {
+            console.log('Sending message to Onemoclu6@gmail.com via FormSubmit...');
         });
     }
 

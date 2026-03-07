@@ -14,159 +14,7 @@
         rel="stylesheet">
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📦</text></svg>">
-    <style>
-        .gallery-hero-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            grid-template-rows: auto auto;
-            gap: 4px;
-            margin-top: var(--nav-height);
-        }
-
-        .gallery-hero-main {
-            grid-row: span 2;
-            position: relative;
-            overflow: hidden;
-            min-height: 80vh;
-        }
-
-        .gallery-hero-main img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .gallery-hero-side {
-            position: relative;
-            overflow: hidden;
-            min-height: 40vh;
-        }
-
-        .gallery-hero-side img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.6s ease;
-        }
-
-        .gallery-hero-side:hover img {
-            transform: scale(1.05);
-        }
-
-        .gallery-hero-label {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 20px;
-            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
-        }
-
-        .gallery-hero-label span {
-            font-family: var(--font-ui);
-            font-size: 0.65rem;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            color: var(--accent);
-        }
-
-        .gallery-full-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 8px;
-        }
-
-        .gallery-full-item {
-            position: relative;
-            overflow: hidden;
-            aspect-ratio: 4/5;
-            cursor: pointer;
-        }
-
-        .gallery-full-item.wide {
-            grid-column: span 2;
-            aspect-ratio: 3/2;
-        }
-
-        .gallery-full-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-            transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .gallery-full-item:hover img {
-            transform: scale(1.06);
-        }
-
-        .gallery-full-item .overlay {
-            position: absolute;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.4);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: var(--transition);
-        }
-
-        .gallery-full-item:hover .overlay {
-            opacity: 1;
-        }
-
-        .overlay-icon {
-            width: 60px;
-            height: 60px;
-            border: 1px solid rgba(255, 255, 255, 0.5);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.2rem;
-            color: var(--white);
-            margin-bottom: 15px;
-        }
-
-        .overlay-text {
-            font-family: var(--font-ui);
-            font-size: 0.65rem;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: var(--white);
-        }
-
-        @media (max-width: 768px) {
-            .gallery-hero-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .gallery-hero-main {
-                grid-row: span 1;
-                min-height: 50vh;
-            }
-
-            .gallery-full-grid {
-                grid-template-columns: 1fr 1fr;
-            }
-
-            .gallery-full-item.wide {
-                grid-column: span 2;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .gallery-full-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .gallery-full-item.wide {
-                grid-column: span 1;
-                aspect-ratio: 1;
-            }
-        }
-    </style>
+    
 </head>
 
 <body>
@@ -301,27 +149,11 @@
     <section style="padding: 0 0 0 0; background: var(--black);">
         <div class="gallery-full-grid">
 
-            <div class="gallery-full-item wide reveal">
-                <img src="GALLERY/PIC5.jpeg" alt="ONEMO Photoshoot 1" style="object-position: top center;">
+            <div class="gallery-full-item wide reveal" style="grid-column: span 3;">
+                <img src="GALLERY/pic5.jpeg" alt="ONEMO Photoshoot" style="object-position: top center;">
                 <div class="overlay">
                     <div class="overlay-icon"><i class="fas fa-expand-alt"></i></div>
                     <span class="overlay-text">Creative Direction</span>
-                </div>
-            </div>
-
-            <div class="gallery-full-item reveal">
-                <img src="GALLERY/PIC6.jpeg" alt="ONEMO Photoshoot 2" style="object-position: top center;">
-                <div class="overlay">
-                    <div class="overlay-icon"><i class="fas fa-expand-alt"></i></div>
-                    <span class="overlay-text">Premium Lookbook</span>
-                </div>
-            </div>
-
-            <div class="gallery-full-item reveal">
-                <img src="GALLERY/PIC7.jpeg" alt="ONEMO Photoshoot 3" style="object-position: top center;">
-                <div class="overlay">
-                    <div class="overlay-icon"><i class="fas fa-expand-alt"></i></div>
-                    <span class="overlay-text">Studio Session</span>
                 </div>
             </div>
 

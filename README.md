@@ -2,10 +2,10 @@
 
 **Premium brand & Manufacturing — Born in Istanbul**
 
-[![Live Site](https://img.shields.io/badge/Live-one--mo.vercel.app-gold?style=for-the-badge)](https://one-mo.vercel.app)
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://one-mo.vercel.app)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://one-mo.vercel.app)
-[![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://one-mo.vercel.app)
+[![Live Site](https://img.shields.io/badge/Live-onemotextile.com-gold?style=for-the-badge)](https://onemotextile.com)
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://onemotextile.com)
+[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://onemotextile.com)
+[![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://onemotextile.com)
 
 ---
 
@@ -13,7 +13,7 @@
 
 ONEMO is a premium brand brand and full-service garment manufacturing company rooted in Istanbul, Türkiye. This website showcases the brand's identity, gallery, manufacturing capabilities, and provides customer support through an AI-powered chatbot.
 
-**🌐 Live:** [one-mo.vercel.app](https://one-mo.vercel.app)
+**🌐 Live:** [onemotextile.com](https://onemotextile.com)
 
 ---
 
@@ -56,7 +56,6 @@ ONEMO is a premium brand brand and full-service garment manufacturing company ro
 - **Google Fonts** — Playfair Display & Inter
 - **Font Awesome 6** — Icon library
 - **FormSubmit** — Backend-free form handling
-- **Vercel** — Deployment & hosting
 
 ---
 
